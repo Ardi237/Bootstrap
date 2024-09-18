@@ -1,0 +1,215 @@
+A. Umum :
+1. Contoh navabr yang lengkap dengan penjelasan :
+<----
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+         <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+       	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        	<span class="navbar-toggler-icon"></span>
+        </button>  
+        <div class="collapse navbar-collapse" id="navbarContent">
+           <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#services">Service</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#product">Product</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+               </li>
+            </ul>
+       </div>
+  </div>
+</nav>
+---->
+-------------------------------------------------------------
+
+
+
+
+B. Container :
+1. Container di Bootstrap : elemen yang digunakan sebagai pembungkus (wrapper) untuk mengatur tata letak konten dan elemen-elemen di dalamnya.
+-------------------------------------------------------------
+2. Container ini berfungsi untuk memberikan padding horizontal di sisi kiri dan kanan, serta membatasi lebar konten berdasarkan ukuran layar (viewport). Container adalah elemen dasar untuk sistem grid di Bootstrap.
+-------------------------------------------------------------
+A. `.container` (Fixed-width- Container) :
+*  Container ini memiliki lebar tetap (fixed width) yang berubah sesuai dengan ukuran layar.
+-------------------------------------------
+*  Lebarnya akan otomatis berubah pada breakpoint tertentu untuk membuat tatak letak lebih reponsif.
+-------------------------------------------
+*  100% lebar pada layar di bawah 576px.
+*  540px pada layar dengan lebar ≥576px (small).
+*  720px pada layar dengan lebar ≥768px (medium).
+*  960px pada layar dengan lebar ≥992px (large).
+*  1140px pada layar dengan lebar ≥1200px (extra large).
+*  1320px pada layar dengan lebar ≥1400px (extra-extra large).
+-------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+B. `.container-fluid` (Full-width Container) : 
+*  Container ini memiliki lebar 100% dari viewport atau ukuran layar, sehingga kontennya akan selalu melebar mengikuti ukuran layar apapun
+-------------------------------------------
+*  Berguna untuk tata letak yang membutuhkan konten yang memenuhi lebar penuh layar, tanpa batasan.
+-------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+C. `.container-{breakpoint}` (Responsive Container)
+*  Ini adalah container yang hanya memiliki lebar tetap pada breakpoint tertentu, tetapi akan memiliki lebar penuh pada ukuran layar yang lebih kecil dari breakpoint tersebut.
+-------------------------------------------
+*  Contoh breakpoints yang tersedia: container-sm, container-md, container-lg, container-xl, dan container-xxl.
+-------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
+
+
+C. `navbar-brand' :
+1.  Kelas yang digunakan untuk mendefinisikan logo atau nama merek di dalam sebuah navbar (navigation bar).
+-------------------------------------------------------------
+2.  Karakteristik `navbar-brand` : 
+*  Dukungan untuk Teks dan Gambar:
+-  Kelas ini dapat digunakan baik untuk menampilkan teks nama merek ataupun logo dalam bentuk gambar.
+-  Biasanya, merek ini juga merupakan tautan (<a>), yang sering diarahkan ke halaman utama (homepage).
+-------------------------------------------
+*  Penempatan:
+-  navbar-brand diletakkan di dalam elemen navbar seperti <nav> dengan kelas navbar.
+-------------------------------------------
+*  Styling Otomatis:
+-  Secara otomatis, Bootstrap memberikan gaya khusus pada elemen dengan kelas navbar-brand, seperti ukuran font yang lebih besar, bold, dan jarak yang sesuai dengan elemen lain di dalam navbar.
+-------------------------------------------
+*  Responsiveness:
+-  navbar-brand secara otomatis bersifat responsif dan akan menyesuaikan tata letak pada berbagai ukuran layar.
+-------------------------------------------
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
+
+D. `Navbar-toggle` : 
+1.  Bootstrap, navbar-toggler adalah elemen yang digunakan untuk membuat tombol yang memungkinkan pengguna untuk membuka atau menutup konten navbar pada layar kecil (mobile). 
+-------------------------------------------------------------
+2.  Ini biasanya digunakan ketika navbar dalam mode responsif, terutama ketika ukuran layar terlalu kecil untuk menampilkan seluruh konten navbar secara horizontal.
+-------------------------------------------------------------
+3. Fungsi utama :
+*  Tombol navigasi responsif : Pada layar kecil, navbar berubah menjadi tampilan minimalis dengan hanya menampilkan tombol toggle. Ketika tombol ditekan, konten navbar seperti link menu atau item lain akan muncul atau disembunyikan.
+-------------------------------------------
+*  Interaksi Collapse: navbar-toggler biasanya bekerja bersama dengan elemen collapse. Saat ditekan, elemen navbar yang tersembunyi di dalam elemen collapse akan muncul.
+-------------------------------------------
+-------------------------------------------------------------
+4. Atribut penting : 
+*  data-bs-toggle="collapse": Mengaktifkan fungsi collapse pada elemen target.
+-------------------------------------------
+*  data-bs-target="#navbarNav": Menunjuk elemen dengan ID yang harus dikontrol (collapse atau expand) ketika tombol ditekan.
+-------------------------------------------
+*  aria-controls: Digunakan untuk meningkatkan aksesibilitas, menunjukkan elemen apa yang akan dikontrol oleh tombol.
+-------------------------------------------
+*  aria-expanded="false": Menunjukkan bahwa konten tidak terbuka secara default.
+-------------------------------------------
+*  aria-label="Toggle navigation": Teks untuk screen readers, menjelaskan fungsi tombol ini.
+-------------------------------------------
+-------------------------------------------------------------
+5. `navbar-toggle-icon` : 
+*  Digunakan untuk menampilkan ikon hamburger (ikon tiga garis horizontal) pada tombol navbar saat dalam mode responsif (layar kecil). 
+-------------------------------------------
+*  Ikon ini merupakan bagian dari tombol navbar-toggler, yang fungsinya adalah membuka atau menutup menu navigasi yang tersembunyi ketika layar berada pada ukuran kecil (biasanya pada perangkat mobile).
+-------------------------------------------------------------
+
+
+
+
+E. `collapse navbar-collapse` : 
+1. Konten navigasi yang di collapse.
+*  collapse : Menyebabkan elemen disembunyikan secara default, terutama saat tampilan berada pada layar kecil (mobile). Elemen dengan kelas ini hanya akna terlihat ketika dipicu olehinteraksi pengguna, misalnya saat tombol navbar-toggle diklik.
+-------------------------------------------
+*  `navbar-collapse` : Mengatur agar elemen ini secara spesifik digunakan di dalam navbar dan menyesuaikan tampilannya sesuai dengan aturan tata letak Bootstrap. Ini memungkinkan navigasi agar dapat beradaptasi dengan berbagai ukuran layar.
+-------------------------------------------
+-------------------------------------------------------------
+
+
+
+
+F. `navbar-nav` : 
+1.  Kelas navbar-nav dalam Bootstrap digunakan untuk membuat kumpulan elemen navigasi (menu) di dalam sebuah navbar. 
+-------------------------------------------------------------
+2.  Elemen-elemen ini biasanya berupa daftar item navigasi seperti link, tombol, atau dropdown, dan diatur secara horizontal pada layar besar dan responsif pada layar kecil.
+-------------------------------------------------------------
+3.  Gaya dan fungsionalitas :
+*  Tampilan Horizontal: Pada layar besar, item yang berada di dalam navbar-nav ditampilkan secara horizontal dan sejajar, membuat navigasi terlihat rapi.
+-------------------------------------------
+*  Tampilan Responsif: Pada layar kecil, jika dipasangkan dengan elemen collapse, daftar navigasi ini akan tersembunyi dan hanya muncul ketika tombol navbar toggler diklik.
+-------------------------------------------
+*  Alignment: Secara default, item navbar-nav ditempatkan di sebelah kiri, tetapi dapat diatur agar berada di tengah atau kanan dengan kelas seperti ml-auto atau justify-content-end.
+-------------------------------------------
+-------------------------------------------------------------
+
+
+
+G. `nav-item` :
+1.  Digunakan untuk menandai sebuah elemen dalam daftar navigasi di dalam navbar atau elemen navigasi lainnya. 
+-------------------------------------------------------------
+2.  Elemen ini biasanya berisi tautan (<a>) atau elemen lain yang bertindak sebagai item navigasi, seperti dropdown.
+-------------------------------------------------------------
+3.  Kamu juga dapat menambahkan elemen active. Ini menandakan bahwa halaman Home sedang diakses dan item tersebut akan tampil dengan gaya khusus (biasanya teks menjadi tebal atau dengan warna berbeda).
+-------------------------------------------------------------
+
+
+
+H. `nav-link` :
+1.  Kelas nav-link dalam Bootstrap digunakan untuk menata tautan navigasi di dalam elemen navigasi seperti navbar atau nav.
+-------------------------------------------------------------
+2.  Kelas ini memastikan bahwa tautan (<a>) dalam daftar navigasi diformat sesuai dengan gaya yang konsisten dan responsif.
+-------------------------------------------------------------
+3.  Fitur `nav-link` : 
+*  Padding Otomatis: Setiap tautan dengan kelas nav-link memiliki padding yang cukup di sekeliling teks, memastikan item navigasi tidak terlalu berdekatan satu sama lain.
+-------------------------------------------
+*  Hover Effect: Secara otomatis memberikan efek hover, biasanya dengan sedikit perubahan warna atau underline ketika kursor diarahkan ke tautan.
+-------------------------------------------
+*  Warna Responsif: Teks dari nav-link menyesuaikan dengan konteks warna tema yang dipilih (misalnya, navbar-light atau navbar-dark).
+-------------------------------------------
+*  Kemudahan Penggunaan dengan Kelas Lain: nav-link mudah dikombinasikan dengan kelas lain seperti active, disabled, atau dropdown-toggle untuk fungsionalitas tambahan.
+-------------------------------------------
+-------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
