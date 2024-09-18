@@ -1,0 +1,123 @@
+A. Kelas pengaturan Margin (Margin Utilities) :
+---------------------------------------------------------
+1. ml-auto: Margin-left otomatis, digunakan untuk mendorong elemen ke kanan.
+---------------------------------------------------------
+2. mr-auto: Margin-right otomatis, digunakan untuk mendorong elemen ke kiri.
+---------------------------------------------------------
+3. mx-auto: Margin otomatis di kanan dan kiri, digunakan untuk memposisikan elemen secara horizontal di tengah.
+---------------------------------------------------------
+4. mt-auto: Margin-top otomatis, digunakan untuk memposisikan elemen di bagian bawah.
+---------------------------------------------------------
+5. mb-auto: Margin-bottom otomatis, digunakan untuk memposisikan elemen di bagian atas.
+---------------------------------------------------------
+6. my-auto: Margin otomatis di atas dan bawah, digunakan untuk memposisikan elemen secara vertikal di tengah.
+---------------------------------------------------------
+
+
+
+
+B. Kelas untuk margin tertentu :
+1. m-0: Menghilangkan semua margin.
+---------------------------------------------------------
+2. m-1: Menambahkan margin kecil ke semua sisi.
+---------------------------------------------------------
+3. m-2: Menambahkan margin sedang ke semua sisi.
+---------------------------------------------------------
+4. m-3: Menambahkan margin yang lebih besar.
+---------------------------------------------------------
+5. m-4: Menambahkan margin yang lebih besar lagi.
+---------------------------------------------------------
+6. m-5: Menambahkan margin terbesar yang tersedia.
+---------------------------------------------------------
+*  Untuk arah tertentu, berikut aturan yang bisa digunakan :
+---------------------------------------------------------
+1. mt-{n}: Margin atas.
+---------------------------------------------------------
+2. mb-{n}: Margin bawah.
+---------------------------------------------------------
+3. ml-{n}: Margin kiri.
+---------------------------------------------------------
+4. mr-{n}: Margin kanan.
+---------------------------------------------------------
+5. mx-{n}: Margin horizontal (kiri dan kanan).
+---------------------------------------------------------
+6. my-{n}: Margin vertikal (atas dan bawah).
+---------------------------------------------------------
+
+
+
+
+C. Flexbox Aligment :
+1. justify-content-start: Menempatkan elemen di awal kontainer.
+---------------------------------------------------------
+2. justify-content-center: Menempatkan elemen di tengah kontainer secara horizontal.
+---------------------------------------------------------
+3. justify-content-end: Menempatkan elemen di akhir kontainer.
+---------------------------------------------------------
+4. justify-content-between: Menyebarkan elemen dengan jarak yang sama, meninggalkan ruang di antara elemen.
+---------------------------------------------------------
+5. justify-content-around: Menyebarkan elemen dengan jarak sama di sekitar elemen (termasuk sebelum dan sesudah elemen pertama dan terakhir).
+---------------------------------------------------------
+6. justify-content-evenly: Menyebarkan elemen dengan jarak sama secara sempurna (termasuk di antara dan di luar elemen).
+---------------------------------------------------------
+
+
+
+
+D. Kelas Align untuk vertikal :
+1. align-items-start: Menempatkan elemen di bagian atas kontainer.
+---------------------------------------------------------
+2. align-items-center: Menempatkan elemen di tengah vertikal.
+---------------------------------------------------------
+3. align-items-end: Menempatkan elemen di bagian bawah kontainer.
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
