@@ -1,0 +1,225 @@
+A. Umum :
+1. Contoh Jumbotron :
+<----
+<section class="jumbotron jumbotron-fluid background-header">
+    <div class="container-fluid text-center">
+         <h1 class="display-3" style="color:aliceblue; ">Solusi Terbaik Belajarmu</h1>
+         <p class="lead" style="font-weight: bold;color:#fff;">Kami menyediakan banyak modul yang kamu butuhkan untuk belajar pemrograman, dari tingkat dasar hingga mahir.</p>
+         <a href="#" class="btn button-primer btn-lg" role="button">Gabung Sekarang</a>
+         <a href="#" class="btn btn-secondary btn-lg" role="button">Pelajari dulu</a>
+     </div>
+</section>
+---->
+--------------------------------------------------------------
+
+
+
+
+B. Jumbotron :
+1. Jumbotron : Komponen Bootstrap yang digunakan untuk menampilkan konten besar atau sorotan penting di sebuah halaman web. 
+--------------------------------------------------------------
+2. Biasanya, ini digunakan untuk menampilkan pesan utama atau elemen visual yang menonjol, seperti gambar, teks besar, atau tombol ajakan bertindak (call-to-action).
+--------------------------------------------------------------
+3. Fitur Utama Jumbotron :
+*  Ukuran Besar : Memiliki ukuran besar secara default, sehingga sangat coock untuk digunakan sebagai header atau bagian pembuka sebuah halaman.
+----------------------------------------
+*  Padding dan margin lebih luas : Elemen di dalam jumbotron memiliki ruang yang lebih luas untuk menampilkan konten dengan baik.
+----------------------------------------
+*  Gaya Tipografi berbeda : Secara defult, jumbotron memberikan ukuran teks yang lebih ebsar dan gaya yang berbeda untuk menarik perhatian.
+----------------------------------------
+*  Fleksibel : Dapat digunakan untuk teks, tombol, gambar, atau elemen lain yang ingin disorot.
+----------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+
+
+
+C. `jumbotron-fluid` : 
+1. Variasi dari komponen jumbotron di Bootstrap yang memungkinkan jumbotron memanjang sepanjang lebar kontainer. 
+--------------------------------------------------------------
+2. Dengan kata lain, jumbotron fluid akan memenuhi lebar seluruh elemen kontainer (biasanya halaman) tanpa ada padding di kiri dan kanan.
+--------------------------------------------------------------
+3. Kelas tambahan yang membuat jumbotron mengambil lebar penuh kontainer. Artinya, jumbotron ini akan meluas dari tepi ke tepi tanpa adanya padding tambahan di kiri dan kanan.
+--------------------------------------------------------------
+
+
+
+
+D. Display :
+1. Konsep display di Bootstrap mengacu pada berbagai kelas utilitas yang digunakan untuk mengontrol tampilan elemen dalam konteks layout dan desain responsif. 
+--------------------------------------------------------------
+2. Bootstrap menyediakan sejumlah kelas untuk mengubah bagaimana elemen ditampilkan atau disembunyikan pada ukuran layar yang berbeda, serta untuk mengatur tata letak elemen dalam sistem grid.
+--------------------------------------------------------------
+3. Kelas display : 
+-  Kelas display-* mengontrol ukuran tampilan elemen dengan mempengaruhi ukuran font. 
+-  Ini digunakan untuk menetapkan elemen teks dengan ukuran font bervariasi, dari display-1 (paling besar) hingga display-6 (paling kecil).
+--------------------------------------------------------------
+4. Kelas dan Ukuran :
+-  display-1 : Ukuran font terbesar.
+-  display-2 : Ukuran font besar.
+-  display-3 : Ukuran font sedang.
+-  display-4 : Ukuran font lebih kecil.
+-  display-5 : Ukuran font kecil.
+-  display-6 : Ukuran font terkecil dalam kelas display.
+--------------------------------------------------------------
+5. Kelas d-* : 
+-  kelas d-* digunakan untuk mengontrol display (tamppilan) elemen, seperti apakah elemen tersebut ditampilkan atau disembunyikan pada berbagai ukuran layar.
+-  Kelas dan fungsinya : 
+*  d-none: Menyembunyikan elemen di semua ukuran layar.
+----------------------------------------
+*  d-inline: Menampilkan elemen sebagai inline.
+----------------------------------------
+*  d-inline-block: Menampilkan elemen sebagai inline-block.
+----------------------------------------
+*  d-block: Menampilkan elemen sebagai blok.
+----------------------------------------
+*  d-flex: Menampilkan elemen sebagai flex container.
+----------------------------------------
+*  d-grid: Menampilkan elemen sebagai grid container.
+----------------------------------------
+*  d-{breakpoint}-none: Menyembunyikan elemen pada breakpoint tertentu (misalnya, d-md-none menyembunyikan elemen pada ukuran medium dan lebih besar).
+----------------------------------------
+d-{breakpoint}-block: Menampilkan elemen sebagai blok pada breakpoint tertentu.
+----------------------------------------
+--------------------------------------------------------------
+6. Kelas d-flex dan Flex Utilities :
+-  Kelas d-flex digunakan untuk membuat elemen sebagai flex container. Ini memungkinkan kita untuk menggunakan properti flexbox untuk mengatur tata letak elemen di dalamnya.
+// Contoh 
+<----
+<div class="d-flex justify-content-center align-items-center">
+  <p>Centered content</p>
+</div>
+---->
+// Penjelasan :
+*  gap-*: Mengatur jarak antara grid items.
+*  grid-template-columns-*: Mengatur jumlah kolom dan ukuran kolom dalam grid.
+----------------------------------------
+--------------------------------------------------------------
+
+
+
+
+E. Lead : 
+1. Kelas `lead` di Bootstrap digunakan untuk emmberikan gaya khusus pada teks dalam konteks paragraf. 
+--------------------------------------------------------------
+2. Kelas ini memberikan tampilan yang lebih menonjol dan lebih besar dari teks biasa, menjadikannya ideal untuk sub-judul, deskripsi penting, atau teks-utama yang ingin kamu soroti.
+--------------------------------------------------------------
+3. Ukuran Font :
+*  Teks dengan kelas lead memiliki ukuran font yang sedikit lebih besar daripada teks paragraf biasa. 
+*  Ini membuat teks lebih mudah dibaca dan lebih menonjol dalam konteks halaman.
+--------------------------------------------------------------
+4. Gaya Tipografi:
+*  lead menambahkan gaya tipografi yang menonjolkan teks, memberikan kesan visual yang lebih menarik dibandingkan teks biasa.
+--------------------------------------------------------------
+
+
+
+F. `btn button-primer btn-lg` :
+1. `btn` : Ini adalah kelas dasar yang diberikan pada elemen tombol atau link untuk memberi gaya sebagai tombol. 
+-  Ini mengatur dasar tampilan tombol seperti padding, border, dan tampilan klik (hover dan active).
+--------------------------------------------------------------
+2. `btn-primary` : Kelas ini emmberikan warna utama pada tombol.
+--------------------------------------------------------------
+3. Kelas ini mengatur ukuran tombol menjadi lebih besar (large). 
+-  Dengan kelas ini, tombol akan memiliki padding dan ukuran font yang lebih besar dibandingkan dengan tombol berukuran normal (tanpa kelas btn-lg).
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
