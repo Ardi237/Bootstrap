@@ -1,0 +1,198 @@
+A. Umum : 
+1. buatlah sturktur umum untuk landing page
+<----
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        ...     
+    </head>
+    <body>
+     <!--Navigasi Bar-->
+      <nav class="navbar">
+      ...
+    </nav>
+
+    <!--Header-->
+    <header class="jumbotron">
+        ...
+    </header>
+
+    <!--Service-->
+    <section id="services">
+        ...
+    </section>
+
+    <!--Product-->
+    <section id="product">
+    ...
+    </section>
+
+    <!--About-->
+    <section id="about">
+    ...
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+    ...
+    </section>
+
+    <!--Footer-->
+    <footer>
+    ...
+    </footer>
+</html>
+---->
+-------------------------------------------------------------
+
+
+
+
+B. Navbar :
+1. kita bisa menambahkan beberapa `class` seperti :
+<----
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"></nav>
+---->
+// Penjelasan :
+1. `nav` membutuhkan sebuah wadah dalam hal ini kita menggunakan class navbar.
+-------------------------------------------------------------
+2. `navbar-expand{size}` :
+----------------------------------
+*  `navbar-expand-sm` : Navbar akan ditampilkan secara horizontal mulai dari ukuran layar kecil (small)(≥576px) ke atas. Pada ukuran layar yang lebih kecil, navbar akan berubah menjadi menu hamburger.
+----------------------------------
+*  `navbar-expand-md` : Navbar akan diperluas mulai dari ukuran layar menengah (Medium) (≥768px) ke atas.
+----------------------------------
+*  `Navbar-expand-lg` : Navbar akan diperluan mulai dari ukuran layar besar (large) (≥1200px) ke atas.
+----------------------------------
+*  `navbar-expand-xxl` : Navbar akan diperluas mulai dari ukuran layar extra-extra-large (≥1400px) ke atas.
+----------------------------------
+*  Jika Anda ingin navbar selalu diperluas di semua ukuran layar, gunakan saja navbar-expand tanpa {size}. Jika tidak menggunakan navbar-expand sama sekali, navbar akan selalu kolaps.
+-------------------------------------------------------------
+-------------------------------------------------------------
+3. `navbar-light` : 
+*  Kelas ini menentukan gaya warna teks dan elemen di dalam navbar.
+----------------------------------
+*  navbar yang menggunakan `navbar-light`, akan memiliki teks bewarna gelap (biasanya hitam atau abu-abu tua), cocok digunakan di atas bacground yang lebih terang.
+----------------------------------
+*  Elemen-elemen seperti tautan (<a>) atau ikon di navbar akan mendapatkan warna yang sesuai dengan skema warna terang.
+-------------------------------------------------------------
+-------------------------------------------------------------
+4. `bg-light` : 
+*  Kelas ini menentukan warna latar belakang (background) dari navbar atau elemen lainnya.
+----------------------------------
+* bg-light memberikan latar belakang bewarna putih atau abu-abu muda.
+----------------------------------
+* Ini hanya mengatur warna latar belakang tanpa memengaruhi warna teks atau elemen di dalamnya.
+-------------------------------------------------------------
+-------------------------------------------------------------
+5. `fixed-top` :
+----------------------------------
+*  fixed-top : Posisi tetap dibagian atas layar.
+*  Navbar atau elemen apa pun dengan kelas fixed-top akan selalu berada di bagian atas viewport, bahkan ketika pengguna menggulir ke bawah.
+----------------------------------
+*  fixed-bottom : Posisi tetap di bagian bawah layar.
+Elemen dengan keals fixed-bottom akan selalu berada di bagian bawah layar, meskipun pengguna menggulir halaman.
+----------------------------------
+*  Ketika menggunakan fixed-top atau fixed-bottom, pastikan kamu mengatur padding atau margin yang cukup untuk konten utama. 
+----------------------------------
+*  Hal ini karena navbar tetap di tempatnya dan dapat menutupi bagian atas atau bawah konten, terutama jika ada elemen lain yang posisinya biasa (non-fixed).
+----------------------------------
+*  fixed-top: Membuat elemen tetap berada di bagian atas layar.
+----------------------------------
+*  fixed-bottom: Membuat elemen tetap berada di bagian bawah layar.
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
