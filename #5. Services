@@ -1,0 +1,171 @@
+A. Umum :
+1. Contoh services :
+<----
+<section
+      id="services"
+      class="service-style container-fluid container-fluid-max"
+    >
+      <div class="row text-center">
+        <div class="col-12 pb-4">
+          <h2 class="display-4 text-center mb-5">Mengapa memilih kami?</h2>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-green"></i>
+            <i class="fas fa-list-ol fa-stack-1x text-white"></i>
+          </span>
+          <h3>Fasilitas Oke</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-green"></i>
+            <i class="fas fa-laptop-code fa-stack-1x text-white"></i>
+          </span>
+          <h3>Modul Lengkap</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-green"></i>
+            <i class="fas fa-money-bill fa-stack-1x text-white"></i>
+          </span>
+          <h3>Biaya Terjangkau</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x text-green"></i>
+            <i class="fas fa-chart-line fa-stack-1x text-white"></i>
+          </span>
+          <h3>Terarah</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+      </div>
+    </section>
+---->
+--------------------------------------------------------------
+
+
+
+
+B. row & col :
+1. Konsep row dan col adalah bagian dari sistem grid Bootstrap yang digunakan untuk meyusun dan menyelaraskan elemen dalam layout responsif.
+------------------------------------------------------------
+2. `row` : 
+-  Fungsi : Kelas row digunakan untuk membuat baris dalam sistem grid Bootstrap. Ini adalah wadah untuk kolom (col) dan bertanggung jawab untuk memastikan bahwa kolom di dalamnya disejajarkan dengan benar dan memiliki margin negatif yang mengimbangi padding kolom.
+--------------------------------
+-  Penggunaan: Setiap row akan membuat baris baru dalam grid dan memastikan bahwa kolom-kolom di dalamnya berada dalam satu baris horizontal.
+--------------------------------------------------------------
+3. `col` : 
+-  Fungsi : Kelas `col` digunakan untuk membuat kolom di dalam row. Kolom akan secara otomatis menyesuaikan lebar mereka berdasarkan ukuran layar dan aturan grid yang ditentukan. Bootstrap memiliki sistem grid 12 kolom, yang memungkinkan kamu untuk membuat data letak yang fleksibel dan responsif.
+--------------------------------
+-  Variasi: Ada berbagai variasi kelas col untuk menyesuaikan lebar kolom pada ukuran layar yang berbeda, seperti col-sm-*, col-md-*, col-lg-*, dan col-xl-*, di mana * menunjukkan jumlah kolom (1-12) yang akan digunakan.
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
