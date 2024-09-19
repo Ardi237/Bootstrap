@@ -1,0 +1,218 @@
+A. Umum :
+1. Contoh dari product :
+<----
+<section id="product" class="container">
+      <div class="row text-center">
+        <div class="col-12 pb-4">
+          <h2 class="display-4 text-center mb-5">Produk kami</h2>
+        </div>
+        <!--Produk Pertama -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              style="max-height: 400px"
+              src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/fcd709d0-9c58-4187-9f5a-7f00b30d37c9_Go-Biz_20210810_094633.jpeg?auto=format"
+              alt="Product 1"
+            />
+            <div class="card-body" style="min-height: 250px">
+              <h4 class="card-title">
+                Membuat Aplikasi Android berbasis Lokasi dengan Android Studio
+              </h4>
+              <p class="card-text">
+                Belajar membuat aplikasi android (Kontlin) berbasis lokasi
+                dengan studi kasus aplikasi presensi digital
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Produk Kedua -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              style="max-height: 400px"
+              src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0c54c455-1901-4095-969b-c2f314054049_4c1f8bca-dc36-4934-8167-9d649fbc8e16.jpg?auto=format"
+              alt="Product 1"
+            />
+            <div class="card-body" style="min-height: 250px">
+              <h4 class="card-title">
+                Membuat Sistem Informasi Perpustakaan Menggunakan Laravel 6
+              </h4>
+              <p class="card-text">
+                Belajar langkah demi langkah membangun sistem informasi
+                perpustakaan dengan laravel 6
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+            </div>
+          </div>
+        </div>
+        <!--Produk Ketiga -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              style="max-height: 400px"
+              src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/df6f2ed4-3130-4420-92aa-768d0326f131_Go-Biz_20210810_101152.jpeg?auto=format"
+              alt="Product 1"
+            />
+            <div class="card-body" style="min-height: 250px">
+              <h4 class="card-title">
+                Membangun Website Toko Online berbasis CodeIgniter
+              </h4>
+              <p class="card-text">
+                Belajar membangun website toko online menggunakan Framework PHP
+                CodeIgniter
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+---->
+-------------------------------------------------------------
+
+
+
+
+
+B. `Card` :
+1. Card di Bootstrap adalah komponen yang digunakan untuk menampilkan informasi dalam format yang terstruktur dan dapat disesuaikan.
+------------------------------------------------------------
+2. Kartu ini sering digunakan untuk menampilkan konten seperti teks, gambar, dan tautan dengan tata letak yang bersih dan menarik. 
+------------------------------------------------------------
+3. Struktur Dasar Card : 
+*  Kartu di Bootstrap biasanya terdiri dari beberapa elemen dasar :
+-  `card` : Kelas utama yang digunakan untuk membuat sebuah kartu.
+------------------------------
+-  `card-header` : Kelas opsional yang digunakan untuk menambahkan header di bagian atas kartu.
+------------------------------
+-  `card-body` : Kelas utama untuk bagian konten kartu.
+------------------------------
+-  `card-footer` : Kelas opsional untuk bagian bawah kartu, sering digunakan untuk informasi tambahan atau tautan.
+------------------------------
+-  `card-title` : Kelas opsional untuk menambahkan judul dalam bagian card-body.
+------------------------------
+-  `card-text` : Kelas opsional untuk menambahkan teks dalam bagian card-body.
+------------------------------
+-  `card-img-top` : Kelas opsional untuk menambahkan gambar di bagian atas kartu.
+------------------------------
+-  `card-img-bottom` : Kelas opsional untuk menambahkan gambar di bagian bawah kartu.
+------------------------------
+------------------------------------------------------------
+4. Variasi Card : 
+-  Card dengan gambar di bagian atas : Menggunakan `card-img-top` untuk menambahkan gambar di bagian atas kartu.
+------------------------------
+-  Card dengan gambar di bagian bawah : Menggunakan `card-img-bottom` untuk menambahkan gambar di bagian bawah kartu.
+------------------------------
+-  Card tanpa gambar : Hanya menggunakan `card-body` tanpa gambar. 
+------------------------------
+-  Card dengan list group : Menggunakan kelas `list-group` untuk menambahkan daftar di dalam kartu.
+------------------------------
+------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
