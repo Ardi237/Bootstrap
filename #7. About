@@ -1,0 +1,231 @@
+A. Umum :
+1. Contoh dari `about` : 
+<----
+<section id="about" class="bg-light">
+      <div class="container">
+        <h2
+          class="display-4 text-center mb-5"
+          style="margin-top: 5rem !important"
+        >
+          Tentang kami
+        </h2>
+        <div class="row no-gutters">
+          <!--gambar & text pertama-->
+          <div class="col-12 col-md-6">
+            <div class="p-3">
+              <h3 class="display-5 text-center text-success mt-3 mb-3">
+                Judul Pertama
+              </h3>
+              <p style="text-align: justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="col-12 pt-3 text-center">
+                <a
+                  class="btn bg-danger btn-lg text-white"
+                  target="_blank"
+                  href="#"
+                  role="button"
+                  >Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div
+              class="h-100 cover"
+              style="
+                background-image: url('https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0b69fc39-bf12-4293-8d5e-bb37fe56c6fd_restaurant-image_1697775651776.jpg?auto=format');
+                background-size: cover;
+              "
+            ></div>
+          </div>
+          <!--gambar & teks kedua-->
+          <div class="col-12 col-md-6">
+            <div
+              class="h-100 cover"
+              style="
+                background-image: url('https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/0b69fc39-bf12-4293-8d5e-bb37fe56c6fd_restaurant-image_1697775651776.jpg?auto=format');
+                background-size: cover;
+              "
+            ></div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="p-3">
+              <h3 class="display-5 text-center text-success mt-3 mb-3">
+                Judul Kedua
+              </h3>
+              <p style="text-align: justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="col-12 pt-3 text-center">
+                <a
+                  class="btn bg-danger btn-lg text-white"
+                  target="_blank"
+                  href="#"
+                  role="button"
+                  >Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+---->
+-------------------------------------------------------------
+
+
+
+
+
+B. !important dan no-glutters :
+1. `!important` adalah deklarasi dalam CSS yang digunakan untuk memberikan prioritas tertinggi pada aturan gaya tertentu. 
+-------------------------------------------------------------
+*  Ketika properti CSS ditandai dengan !important, maka properti tersebut akan diutamakan dibanding aturan lain, bahkan jika ada deklarasi lain yang memiliki tingkat spesifisitas yang lebih tinggi.
+-------------------------------------------------------------
+2. `no-glutters` : Kelas di Bootstrap yang digunakan untuk menghilangkan padding (jarak) antara kolom-kolom di dalam grid. Secara default, Bootstrap memberikan padding pada setiap kolom untuk memberikan spasi antar kolom.
+-------------------------------------------------------------
+
+
+
+
+C. `<a class="btn bg-danger btn-lg text-white" target="_blank" href="#" role="button">Selengkapnya</a>` :
+1. `<a> (Anchor Tag)` :
+*  Tag `<a>` digunakan untuk membuat hyperlink, yang dapat mengarahkan pengguna ke halaman lain, bagian lain dari halaman yang sama, atau membuka file.
+-------------------------------------------------------------
+2. `class="btn bg-danger btn-lg text-white"` :
+*  `class` digunakan untuk memberikan satu atau lebih kelas CSS pada elemen untuk styling.
+-------------------------------------
+-  btn : Biasanya merupakan keals dari Bootstrap untuk menandai elemen sebagai tombol.
+-------------------------------------
+-  bg-danger : Kelas Bootstrap yang memberikan background merah (warna bahaya atau "danger").
+-------------------------------------
+-  btn-lg : Kelas Bootstrap yang membuat tombol menjadi lebih besar dari ukuran default (large button).
+-------------------------------------
+-  text-white : Kelas Bootstrap untuk emngubah warna teks pada tombol menjadi putih.
+-------------------------------------------------------------
+3. `target="_blank"` :
+-  target=:"_blank" : Properti ini membuat link terbuka di tab baru atau jendela browser baru saat diklik.
+-------------------------------------
+-  ini biasanya akan digunakan ketika pengguna tetap ingin berada di ahlaman asli sambil membuka halaman baru di tab terpisah.
+-------------------------------------------------------------
+4. `role="button" : 
+-  `role="button"` memberikan semantik tambahan pada elemen <a>, yang mengindikasikan bahwa ini harus diperlakukan sebagai tombol meskipun secara default <a> adalah elemen hyperlink.
+-------------------------------------
+-  Ini sering digunakan untuk tujuan aksesibilitas, agar pembaca layar dapat mengidentifikasi bahwa elemen ini berfungsi sebagai tombol.
+-------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
